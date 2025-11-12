@@ -5,7 +5,7 @@ import Home from './pages/Home';
 //import Catalog from './pages/Catalog';
 //import BookDetails from './pages/BookDetails';
 //import Cart from './pages/Cart';
-import Admin from './pages/Admin';
+//import Admin from './pages/Admin';
 
 function App() {
   return (
@@ -15,10 +15,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/catalog" element={<Catalog />} />
-            <Route path="/book/:id" element={<BookDetails />} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/admin" element={<Admin />} />
+            
           </Routes>
         </main>
       </div>
