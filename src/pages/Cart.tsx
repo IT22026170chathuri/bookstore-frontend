@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { TrashIcon, PlusIcon, MinusIcon } from '@heroicons/react/24/outline';
 import Button from '../components/ui/Button';
-import { Book } from '../types';
+import type { Book } from '../types';
 
 interface CartItem {
   book: Book;
