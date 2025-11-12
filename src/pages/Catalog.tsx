@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import BookCard from '../components/features/books/BookCard';
 import SearchBar from '../components/ui/SearchBar';
-import { Book } from '../types';
+import type { Book } from '../types';
 
 const Catalog: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
