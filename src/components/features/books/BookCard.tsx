@@ -1,5 +1,5 @@
 import React from 'react';
-import { Book } from '../../../types';
+import type { Book } from '../../../types';
 import Card from '../../ui/Card';
 import Button from '../../ui/Button';
 import Rating from '../../ui/Rating';
