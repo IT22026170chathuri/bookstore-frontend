@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import BookCard from '../components/features/books/BookCard';
 import Button from '../components/ui/Button';
-import { Book } from '../types';
+import type { Book } from '../types';
 
 const Home: React.FC = () => {
   // Mock featured books data
