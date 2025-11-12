@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Home from './pages/Home';
 //import Catalog from './pages/Catalog';
-import BookDetails from './pages/BookDetails';
-import Cart from './pages/Cart';
+//import BookDetails from './pages/BookDetails';
+//import Cart from './pages/Cart';
 import Admin from './pages/Admin';
 
 function App() {
